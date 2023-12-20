@@ -12,6 +12,9 @@
 </head>
 <body id="body">
     <div class="body__wrapper">
+         <audio autoplay loop id="audio">
+            <source src="./audio/shrek.mp3" type="audio/mpeg">
+        </audio>
         <button class="btn" id="pause-music" onclick="togglePlay()">Music <span style="color: #42aaff">Start/Pause</span></button>
         <div class="scene-1">
             <h1 class="title">Привет! Я слышал, что у тебя сегодня день рождения! Но я тебя поздравлять не буду, <span style="color: red; font-weight: 700;">не заслужил</span>🙄<br>Когда сделашь <span style="color: yellowgreen; font-weight: 700;">горизонт</span>, тогда я подумаю(над твоим поведением)</h1>
@@ -83,9 +86,6 @@
             </div>
         </div>
     </div>
-    <audio autoplay loop id="audio">
-        <source src="./audio/shrek.mp3" type="audio/mpeg">
-    </audio>
     <script src="./script.js"></script>
 </body>
 </html>
