@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Andika:regular,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normilize.css">
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+    <title>Happy Birthday!</title>
+</head>
+<body id="body">
+    <div class="body__wrapper">
+        <button class="btn" id="pause-music" onclick="togglePlay()">Music <span style="color: #42aaff">Start/Pause</span></button>
+        <div class="scene-1">
+            <h1 class="title">Привет! Я слышал, что у тебя сегодня день рождения! Но я тебя поздравлять не буду, <span style="color: red; font-weight: 700;">не заслужил</span>🙄<br>Когда сделашь <span style="color: yellowgreen; font-weight: 700;">горизонт</span>, тогда я подумаю(над твоим поведением)</h1>
+            <button class="btn" id="btn-scene1">Заглянуть</button>
+        </div>
+
+        <div class="scene-2">
+            <h1 class="title">Шучу конечно, мой любимый братик) <br> Желаю тебе всего самого наилучшего, а также чтобы ты стал, а ты станешь ещё сильнее, чем был и исполнишь все свои мечты/цели. <br> <span style="color: tomato; text-shadow: 1px 1px 1px #000;">ЕЩЁ РАЗ С ДНЁМ РОЖДЕНИЯ!🎉</span></h1>
+            <div class="btns-sect2">
+                <button class="btn" id="btn-scene-video">Video Transform</button>
+                <video loop controls src="./video/birthday.mp4" id="video"></video>
+                <button class="btn" id="btn-scene-photo">Photo Transform</button>
+            </div>
+        </div>
+        
+        <div class="scene-video">
+            <h1 class="title"></h1>
+            <div class="video-box" id="video-box">
+                <video controls src="./video/start.mp4" class="start"></video>
+            </div>
+            <button class="btn" id="video-back">Back</button>
+        </div>
+        
+        <div class="scene-photo">
+            <div>  
+                <h1 class="title-photo">С чего же всё начиналось?🧐</h1>
+                <button class="btn" id="photo-back">Back</button>
+                <button class="btn" id="photo-next">Next</button>
+            </div>
+            <div class="img-box" id="img-box">
+                <img src="./img/start1.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/start.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/start2.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/start3.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/start4.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/start5.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/start6.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/start7.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/start8.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/start9.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/start10.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/start11.jpg" class="img-start" alt="Сильнейший!">
+            </div>
+        </div>
+
+        <div class="scene-photo1">
+            <div>  
+                <h1 class="title-photo">🧚‍♀️<span style="color: #42aaff; text-shadow: 2px 2px 1px#000;">ВИНКС</span> <span style="color: #8b0000; text-shadow: 2px 2px 1px#000;">ТРАНСФОРМИРУЕМСЯ!</span>🧚‍♀️</h1>
+                <div class="xz">
+                    <audio controls class="vinks">
+                        <source src="./audio/vinks.mp3">
+                    </audio>
+                    <button class="btn" id="photo-back1">Back</button>
+                </div>
+            </div>
+            <div class="img-box" id="img-box">
+                <img src="./img/end.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/end1.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/end2.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/end3.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/end4.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/end5.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/end6.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/end7.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/end8.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/end9.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/end10.jpg" class="img-start" alt="Сильнейший!">
+                <img src="./img/end11.jpg" class="img-start" alt="Сильнейший!">
+            </div>
+        </div>
+    </div>
+    <audio autoplay loop id="audio">
+        <source src="./audio/shrek.mp3" type="audio/mpeg">
+    </audio>
+    <script src="./script.js"></script>
+</body>
+</html>
