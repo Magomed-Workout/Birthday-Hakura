@@ -24,6 +24,7 @@ btns[0].addEventListener('click', () => {
 });
 
 btns[1].addEventListener('click', () => {
+    screens[3].classList.remove('remove')
     screens[3].classList.add('open')
     screens[1].classList.remove('open')
     screens[1].classList.add('remove-left')
@@ -49,6 +50,7 @@ backBtn[1].addEventListener('click', () => {
 })
 
 nextBtn[0].addEventListener('click', () => {
+    screens[4].classList.remove('remove')
     screens[3].classList.remove('open')
     screens[3].classList.add('remove')
     screens[4].classList.add('open')
