@@ -166,6 +166,7 @@ button.btn:active::before {
 
 .start {
     width: 1000px;
+    height: 500px;
 }
 
 #video-back {
@@ -322,6 +323,10 @@ button.btn:active::before {
 }
 
 @media screen and (max-width:1366px) {
+    .scene-video {
+        top: 170px;
+    }
+    
     .scene-video.open {
         transform: translateX(25%);
     }
@@ -329,6 +334,7 @@ button.btn:active::before {
     .scene-photo.open, .scene-photo1.open {
         transform: translateX(-35%);
     }
+    
 }
 
 @media screen and (max-width:1024px) {
@@ -352,8 +358,13 @@ button.btn:active::before {
         width: 350px;
     }
 
+    .scene-video {
+        top: 250px;
+    }
+
     .start {
         width: 700px;
+        height: 400px;
     }
 
     .scene-photo, .scene-photo1 {
@@ -410,6 +421,7 @@ button.btn:active::before {
 
     .start {
         width: 500px;
+        height: 300px;
     }
 
     .scene-photo, .scene-photo1 {
@@ -451,6 +463,7 @@ button.btn:active::before {
     
     .start {
         width: 400px;
+        height: 250px;
     }
 
     .scene-photo, .scene-photo1 {
@@ -512,7 +525,7 @@ button.btn:active::before {
     }
 
     .start {
-        max-width: 370px;
+        width: 370px;
     }
 
     .scene-video {
@@ -538,7 +551,7 @@ button.btn:active::before {
     }
 
     .start {
-        max-width: 320px;
+        width: 320px;
     }
 
     .scene-photo.open, .scene-photo1.open {
