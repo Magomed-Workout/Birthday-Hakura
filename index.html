@@ -12,9 +12,6 @@
 </head>
 <body id="body">
     <div class="body__wrapper">
-         <audio autoplay loop id="audio">
-            <source src="./audio/shrek.mp3" type="audio/mpeg">
-        </audio>
         <button class="btn" id="pause-music" onclick="togglePlay()">Music <span style="color: #42aaff">Start/Pause</span></button>
         <div class="scene-1">
             <h1 class="title">Привет! Я слышал, что у тебя сегодня день рождения! Но я тебя поздравлять не буду, <span style="color: red; font-weight: 700;">не заслужил</span>🙄<br>Когда сделашь <span style="color: yellowgreen; font-weight: 700;">горизонт</span>, тогда я подумаю(над твоим поведением)</h1>
@@ -38,7 +35,7 @@
             <button class="btn" id="video-back">Back</button>
         </div>
         
-        <div class="scene-photo">
+        <div class="scene-photo remove">
             <div>  
                 <h1 class="title-photo">С чего же всё начиналось?🧐</h1>
                 <button class="btn" id="photo-back">Back</button>
@@ -60,7 +57,7 @@
             </div>
         </div>
 
-        <div class="scene-photo1">
+        <div class="scene-photo1 remove">
             <div>  
                 <h1 class="title-photo">🧚‍♀️<span style="color: #42aaff; text-shadow: 2px 2px 1px#000;">ВИНКС</span> <span style="color: #8b0000; text-shadow: 2px 2px 1px#000;">ТРАНСФОРМИРУЕМСЯ!</span>🧚‍♀️</h1>
                 <div class="xz">
@@ -86,6 +83,9 @@
             </div>
         </div>
     </div>
+    <audio autoplay loop id="audio">
+        <source src="./audio/shrek.mp3" type="audio/mpeg">
+    </audio>
     <script src="./script.js"></script>
 </body>
 </html>
