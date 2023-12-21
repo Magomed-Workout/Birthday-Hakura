@@ -337,7 +337,12 @@ button.btn:active::before {
     
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) {  
+    #body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
     h1 {
         font-size: 1.7rem;
     }
@@ -376,12 +381,7 @@ button.btn:active::before {
     }
 }
 
-@media screen and (max-width:700px) {
-    #body {
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
-    
+@media screen and (max-width:700px) {
     h1 {
         line-height: 45px;
         font-size: 1.5rem;
