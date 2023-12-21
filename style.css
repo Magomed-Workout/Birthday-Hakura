@@ -463,8 +463,8 @@ button.btn:active::before {
     }
     
     .start {
-        width: 400px;
-        height: 250px;
+        width: 370px;
+        height: 230px;
     }
 
     .scene-photo, .scene-photo1 {
@@ -526,7 +526,7 @@ button.btn:active::before {
     }
 
     .start {
-        width: 370px;
+        width: 350px;
     }
 
     .scene-video {
