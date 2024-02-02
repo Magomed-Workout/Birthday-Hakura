@@ -239,7 +239,7 @@ button.btn:active::before {
 .scene-photo1.remove {
     transition: 0.5s all ease-in-out;
     opacity: 0;
-    transform: translateX(-130%);
+    transform: translateX(-180%);
 }
 
 .xz {
@@ -337,12 +337,7 @@ button.btn:active::before {
     
 }
 
-@media screen and (max-width:1024px) {  
-    #body {
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
-
+@media screen and (max-width:1024px) {
     h1 {
         font-size: 1.7rem;
     }
@@ -381,7 +376,12 @@ button.btn:active::before {
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:700px) {
+    #body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
     h1 {
         line-height: 45px;
         font-size: 1.5rem;
@@ -463,8 +463,8 @@ button.btn:active::before {
     }
     
     .start {
-        width: 370px;
-        height: 230px;
+        width: 400px;
+        height: 250px;
     }
 
     .scene-photo, .scene-photo1 {
@@ -526,7 +526,7 @@ button.btn:active::before {
     }
 
     .start {
-        width: 350px;
+        width: 370px;
     }
 
     .scene-video {
